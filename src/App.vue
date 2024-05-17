@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
-import { almacenProductos } from '';
-import { usePersistCart} from '';
+import { almacenProductos } from './stores/products';
+import { usePersistCart} from './com';
 import Nav from "./components/Nav.vue";
 
 const deProductos = almacenProductos();
